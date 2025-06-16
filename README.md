@@ -1,24 +1,13 @@
-# Spring Boot Starter Template Repository
+# TechSpark Product API
 
-Welcome to the Spring Boot Starter Template Repository! This project provides a ready-to-use Spring Boot Starter setup,
-helping you jumpstart new applications quickly and efficiently.
+TechSpark Product API is a Spring Boot application that provides a RESTful API for managing product information.
+This project serves as a starter template for building Spring Boot applications with essential features and best
+practices.
 
-## Getting Started
+## Clone this Repository
 
-- Click the “Use this template” button at the top of this repository’s page.
-- Provide a name for your new repository and choose whether it should be public or private.
-- Click “Create repository from template” to generate your own copy.
- 
-## Clone Your New Repository
-
-- Open your new repository on GitHub.
-- Click the “Code” button and copy the repository URL.
-- Run git clone <your-repo-url> in your terminal to clone the code locally.
-
-## Customize Project Settings
-
-- Update the build.gradle (Gradle) file with your group ID, artifact ID, or any relevant project information.
-- If necessary, rename packages or modules to suit your organization’s naming conventions.
+Run ```git clone git@github.com:TechSparkWorkspace/tspark-product-api.git``` to clone the repository to your local
+machine.
 
 ## Build and Run the Application
 
@@ -30,9 +19,9 @@ Open your browser and goto [API Documentation](http://localhost:8080/swagger-ui/
 
 - Access the running application by opening your browser at http://localhost:8080 (unless you changed the port).
 
-## Starter Template Features
+## Service Features
 
-This starter template comes with below features.
+This service comes with below features.
 
 - Spring Boot Web, Validation, JPA, and Actuator
 - SpringDoc OpenAPI with Swagger UI
