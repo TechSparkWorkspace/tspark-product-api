@@ -6,11 +6,6 @@ WORKDIR /app
 COPY gradlew .
 COPY gradle gradle
 
-# ✅ Debug: list what was copied
-RUN echo "=== Listing current dir ===" && ls -al && \
-    echo "=== Listing gradle dir ===" && ls -al gradle && \
-    echo "=== Listing gradle/wrapper dir ===" && ls -al gradle/wrapper
-
 # Make gradlew executable
 RUN chmod +x gradlew
 
